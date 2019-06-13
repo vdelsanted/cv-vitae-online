@@ -9655,15 +9655,85 @@ h3 {
     border-color: #dee2e6;
   }
 }
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #071013;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  color: #071013;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
 .header {
   position: fixed;
   background-color: #7CEA9C;
+  padding-bottom: 100%;
 }
 
 .header__img {
   width: 150px;
   height: 150px;
   border-radius: 100%;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.header__menu {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #071013;
+}
+.header__menu ul {
+  padding: 0;
+}
+.header__menu ul li {
+  list-style: none;
+}
+.header__menu ul li a {
+  color: #071013;
+}
+
+main {
+  padding-top: 10%;
+  padding-left: 25%;
+  padding-right: 15%;
+}
+
+footer {
+  padding-top: 10%;
+  padding-left: 25%;
 }
 
 /*# sourceMappingURL=main.css.map */

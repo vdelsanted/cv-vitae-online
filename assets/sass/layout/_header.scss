@@ -1,10 +1,30 @@
 .header {
   position: fixed;
   background-color: $green;
+  padding-bottom: 100%;
 }
 
 .header__img {
   width:150px;
   height:150px;
   border-radius:100%;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.header__menu {
+  font-family: $lato;
+  font-weight: $regular;
+  color: $negro;
+
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+
+      a {
+        color: $negro;
+      }
+    }
+  }
 }
