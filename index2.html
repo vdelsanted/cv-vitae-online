@@ -2,15 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae Online</title>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
 
     <header>
       <img src="" alt="">
       <ul>
-        <li>opción </li>
-        <li>opción </li>
+        <li>HACERCA DE MI</li>
+        <li>EXPERIENCIA</li>
         <li>opción </li>
         <li>opción </li>
         <li>opción </li>
@@ -19,6 +25,7 @@
 
     <section>
 
+      <main>
       <h1>texto</h1>
       <span>texto</span>
       <p>texto</p>
@@ -30,20 +37,20 @@
 
       <hr>
 
-      <h2>texto</h2>
-      <div class="container">
+      <h2>EXPERIENCIA</h2>
+      <div class="container experiencia">
         <div class="row">
-          <div class="col-6">
-            <h3>texto</h3>
-            <span>text</span>
+          <div class="col-6 experiencia__desafio">
+            <h3>DESAFIO LATAM</h3>
+            <span>Front-end Developer</span>
           </div>
           <div class="col-6">
-            fecha
+            2017-2018
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <p>texto</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
       </div>
@@ -82,15 +89,15 @@
 
       <hr>
 
-      <h2>texto</h2>
-      <div class="container">
+      <h2>EDUCACIÓN</h2>
+      <div class="container educacion">
         <div class="row">
-          <div class="col-6">
-            <h3>texto</h3>
-            <span>texto</span>
+          <div class="col-6 educacion__desafio">
+            <h3>DESAFÍO LATAM</h3>
+            <span>Font-end</span>
           </div>
           <div class="col-6">
-
+            2017
           </div>
         </div>
       </div>
@@ -119,25 +126,37 @@
 
       <hr>
 
-      <h2>texto</h2>
-      <div class="">
-        <h3>texto</h3>
-        <p>text</p>
+      <h2>HABILIDADES</h2>
+      <div class="habilidades__programacion">
+        <h3>LENGUAJE DE PROGRAMACIÓN</h3>
+        <p>Javascript, PHP</p>
       </div>
-      <div class="">
-        <h3>texto</h3>
-        <p>text</p>
+      <div class="habilidades__herramientas">
+        <h3>HERRAMIENTAS</h3>
+        <p>Wordpress, JQuery, Bootstrap, Photoshop, Sketch, Ilustrator</p>
       </div>
 
       <hr>
 
-      <h2>contacto</h2>
+      <footer class="footer">
+      <h2>CONTACTO</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
       <form>
-        
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Nombre</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Correo</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
       </form>
-
+      </footer>
     </section>
 
   </body>
