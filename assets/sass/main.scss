@@ -4,14 +4,12 @@
 // Reset
 @import 'base/reset';
 
-// base
-@import 'base/base';
-@import 'base/typography';
-
-
 // Abstracts
 @import 'abstracts/variables';
 
+// base
+@import 'base/base';
+@import 'base/typography';
 
 // Layout
 @import 'layout/header';
